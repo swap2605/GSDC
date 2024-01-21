@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> civil engneering 1st year btech lectures</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Kanit:ital,wght@1,600&family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<style>
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+font-family: 'Baloo 2', sans-serif;
+
+
+}
+
+body{
+height:100%;
+width:100%;
+background-color: purple;
+
+}
+
+
+.container{
+height:100vh;
+width:100vw;
+display:grid;
+padding:5px;
+row-gap:1rem;
+grid-template-rows:10vh 1fr 330vh  10fr 100px ;
+
+grid-template-columns:1fr 5fr  ;
+column-gap:1rem;
+color:black;
+font-size:medium;
+
+}
+.items{
+border-radius: 15px;
+background-color:yellow;
+border:2px solid rgb(118, 76, 76);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+
+}
+.header{
+
+
+grid-column-start:1;
+grid-column-end:4;
+display:flex;
+justify-content:start;
+justify-content: space-between;
+align-items: center;
+
+
+
+
+
+
+}
+.footer{
+
+
+grid-column-start:1;
+grid-column-end:4;
+height: 100px;
+}
+.vedio{
+
+grid-column-start:2;
+grid-column-end:4;
+
+display:flex;
+flex-direction: column;
+
+
+}
+
+
+img{
+
+    width:150px;
+    height: 150px;
+   
+}
+
+iframe{
+    margin:2px;
+
+}
+.op{
+
+    margin: 2px;
+    
+}
+.book{
+    grid-column-start:1;
+grid-column-end:2;
+
+}
+.about{
+
+grid-column-start:2;
+grid-column-end:4;
+
+}
+.btn{
+
+    border:2px solid black;
+   transition-duration: 0.2s;
+}
+.vedant{
+margin-left: 30px;
+margin-top: 13px;
+   width:63px;
+    height: 63px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+ 
+
+
+}
+
+.sub{
+
+    margin-right: 30px;
+    background-color: red;
+    color: aliceblue;
+    padding: 6px;
+    text-decoration:none ;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+  
+
+}
+.btn:hover{
+
+    transform: scale(1.5);
+color:red;
+background-color: aliceblue;
+font-size: larger;
+
+}
+.bce{
+color:black;
+font-size: 37px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+.intro{
+margin-left: 100px; 
+   font-size: 17px;
+}
+
+
+
+.sur{
+
+border:2px solid black;
+ 
+margin:10px;
+  width:950px;
+margin-bottom: 20px;
+background-color: purple;
+color:white;
+font-size: large;
+border-radius: 5px;
+
+
+}
+
+
+.main{
+
+border:2px solid black;
+
+margin-top:10px;
+width:975px;
+border-radius: 10px;
+background-color:rgb(179, 40, 179);
+
+}
+
+.side{
+
+    display:flex;
+    flex-direction: column;
+    margin-left: 15px;
+  justify-content: space-evenly;
+  font-size: medium;
+  margin: 10px;
+  background-color: purple;
+color:white;
+
+}
+
+
+#side{
+
+border:2px solid black;
+width:200px;
+margin-top:-1830px;
+background-color: rgb(202, 44, 202);
+color:white;
+border-radius: 7px;
+}
+#index:hover{
+
+color:yellow;
+
+
+}
+#index{
+
+text-align:start;
+font-size: larger;
+border:2px solid rgb(189, 37, 189);
+margin:3px;
+background-color: purple;
+text-align: center;
+font-size: 50px;
+}
+.boo:hover{
+
+color:black;
+background-color: yellow;
+font-size: larger;
+}
+.boo{
+
+border:2px solid rgb(189, 37, 189);
+margin: 5px;
+color:white;
+transition-duration: 0.2s;
+}
+#pankaj{
+border: 3px solid black;
+border-radius:20%;
+   
+}
+.fuck{
+margin-left: 2px;
+
+}
+#close{
+font-size: large;
+    transition-duration: 0.2s;
+}
+#close:hover{
+font-size: 40px;
+
+}
+
+@media screen and (max-width:1300px){
+    /* .vedio{
+
+grid-column-start:2;
+grid-column-end:3;
+
+display:flex;
+flex-direction: column; 
+} */
+
+.sur{
+    width: 310px;
+}
+.container{
+    width: 100vw;
+    grid-template-rows:0 ;
+
+}
+.main{
+    width: 330px;
+}
+
+#side{
+    margin-top: 0;
+    width: 422px;
+    height: 4428px;
+}
+
+#pankaj{
+    margin-top: 50px;
+    position: relative;
+}
+.header{
+    height: 65px;
+    position: relative;
+}
+.about{
+    margin-top: 50px;
+}
+
+
+}
+
+</style>
+<body>
+<div class="container">
+
+<div class="header items" id="head" >
+    
+   <div><img class="vedant" src="logo.pnj.jpg"></div>
+   <div class="bce">BASIC CIVIL ENGINEERING <div class="intro">BY PAWAN PATIDAR SIR</div></div>
+   <div><a class="btn sub" href="https://www.youtube.com/@TechCivilMPGK-ij7gv">SUBSCRIBE</a></div>
+
+
+
+
+</div>
+<div><img src="pankaj.png" width="100px" class="items" id="pankaj"></div>
+<div class="items about"> PAWAN SIR is  a faculty teaching civil engneering in ujjain engneering college have done BE from medicaps indore and ME from JIT .also cleared GATE 2017 2020 2021 2022 2023</div>
+<div class="items">
+    
+
+<div id="side">
+
+<DIV id="index">INDEX</DIV>
+
+
+<DIV class="side">
+
+
+    <a    class="boo"    href="#SURVEYING">SURVEYING</a>
+    <a    class="boo"      href="#LEVELING">LEVELING</a>
+    <a    class="boo"    href="#MAPPING">MAPPING</a>
+    <a    class="boo"    href="#SHEAR">SHEAR FORCE AND BENDING MOMENT</a>
+    <a    class="boo"    href="#CENTROID">CENTROID</a>
+    <a    class="boo"    href="#INERTIA">MOMENT OF INERTIA</a>
+    <a    class="boo"   href="#TRUSSES">TRUSSES</a>
+  
+
+
+
+</DIV>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+<div class="items vedio" >
+  <div class="main"> 
+    <div>
+        
+        <div class="sur" id="SURVEYING">SURVEYING</div>
+ <div class="sur">     
+<iframe   src="https://www.youtube.com/embed/PhXmkkDD_DE?si=G5Vb9byRJqo5PmW2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/X1VaoptO6sM?si=RgjNm66vEJLnMycP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/vHEjsbRfrwo?si=-8dzArO3ofw4uv7x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/9ORinHU8kA4?si=bJi8P8UInIVEmT_K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/AR3RHlMYFT8?si=my1Up-IBaxV_bWOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/mtIB_tsgtLI?si=RhpQ7RLHmzGiP6Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+
+ <div >
+     
+    <div class="sur"  id="LEVELING">LEVELING</div>
+<DIV class="sur">
+    <iframe  src="https://www.youtube.com/embed/Vvbr8r0GqcM?si=y3CPMyFfrLWA-cyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/Vvbr8r0GqcM?si=y3CPMyFfrLWA-cyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</DIV>
+
+</div>   
+
+
+  <div id="MAPPING">
+<div class="sur" >   MAPPING</div>
+<div class="sur">
+    <iframe  src="https://www.youtube.com/embed/rpnadyPz4W8?si=V0rmo8i1IikxMYg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/dk7EfMA-_u8?si=EoYFMR4UFmcYK8FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/2xJ0kDp8e5M?si=WoQkphCILFlIGXXu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe  src="https://www.youtube.com/embed/BH59eVmwAdc?si=z-Ei_-5u7s7kucje" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+</div>
+
+  </div>
+
+
+
+
+<div>
+    
+    
+    <div class="sur" id=" SHEAR ">SHEAR FORCE AND BENDING MOMENT</div>
+<DIV class="sur">
+    <iframe  src="https://www.youtube.com/embed/V7oYcZ-l_1w?si=kCJluOWRc_qDWCsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/u89AXUkRJqo?si=ltzpZf_XWQxCiQv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/_QK9fO0ST-I?si=t5CiDRtMSwYOgpEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/FXuqapdcSvc?si=MJ7PzQoJcNEjb9ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/Jjk0fvGK9X8?si=FRcetZzY5T4Cgi5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+</DIV>
+
+
+</div>
+
+<div>
+
+<div class="sur" id="CENTROID">CENTROID</div>
+<div class="sur">
+    <iframe  src="https://www.youtube.com/embed/NjgOAN--PMc?si=QwhFOKE5RmFMyAn2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/YHYOajm4wGs?si=rybdXs0kRspQUv7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+
+
+
+<div id=" INERTIA">
+
+<div class="sur"  id=" INERTIA">MOMENT OF INERTIA</div>
+
+<DIV  class="sur">
+    <iframe  src="https://www.youtube.com/embed/EcSFGZPzG-0?si=EGcskEgXI0RsLH35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/mr2mnCCH0xk?si=g-pyPmHP-EPy44Jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/pqoudVxikhs?si=UtJfV8S4yaVZP5Eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+</DIV>
+
+
+
+</div>
+
+
+
+
+<div>
+<div class="sur"   id="TRUSSES">TRUSSES</div>
+<DIV class="sur">
+    <iframe  src="https://www.youtube.com/embed/ZW-6QnCmhDM?si=PiOrlSdpYuYh7kD3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/vQqFW8Y5jGQ?si=8LLXP_MnYtHVi6qS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</DIV>
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+<div class="items footer" id="close"><div >a VEDANT DAHAKE production</div>
+    
+</div>
+
+</body>
+</html>
